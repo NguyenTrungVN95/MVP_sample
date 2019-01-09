@@ -1,46 +1,59 @@
-<resources>
-    <string name="app_name">exam_nguyentrung</string>
-    <string name="L001">xiaomi</string>
-    <string name="L002">bitis hunter</string>
-    <string name="L003">bts</string>
-    <string name="L004">balo</string>
-    <string name="L005">bitis hunter x</string>
-    <string name="L006">tai nghe</string>
-    <string name="L007">harry potter</string>
-    <string name="L008">anker</string>
-    <string name="L009">iphone</string>
-    <string name="L010">balo nữ</string>
-    <string name="L011">nguyễn nhật ánh</string>
-    <string name="L012">đắc nhân tâm</string>
-    <string name="L013">ipad</string>
-    <string name="L014">senka</string>
-    <string name="L015">tai nghe bluetooth</string>
-    <string name="L016">son</string>
-    <string name="L017">maybelline</string>
-    <string name="L018">laneige</string>
-    <string name="L019">kem chống nắng</string>
-    <string name="L020">anh chính là thanh xuân của em</string>
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (C) 2015 The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
 
-    <string-array name="keywords">
-        <item>@string/L001</item>
-        <item>@string/L002</item>
-        <item>@string/L003</item>
-        <item>@string/L004</item>
-        <item>@string/L005</item>
-        <item>@string/L006</item>
-        <item>@string/L007</item>
-        <item>@string/L008</item>
-        <item>@string/L009</item>
-        <item>@string/L010</item>
-        <item>@string/L011</item>
-        <item>@string/L012</item>
-        <item>@string/L013</item>
-        <item>@string/L014</item>
-        <item>@string/L015</item>
-        <item>@string/L016</item>
-        <item>@string/L017</item>
-        <item>@string/L018</item>
-        <item>@string/L019</item>
-        <item>@string/L020</item>
+<resources>
+    <string name="app_name">TO-DO-MVP</string>
+    <string name="add_task">New TO-DO</string>
+    <string name="edit_task">Edit TO-DO</string>
+    <string name="task_marked_complete">Task marked complete</string>
+    <string name="task_marked_active">Task marked active</string>
+    <string name="loading_tasks_error">Error while loading tasks</string>
+    <string name="completed_tasks_cleared">Completed tasks cleared</string>
+    <string name="menu_filter">Filter</string>
+    <string name="menu_clear">Clear completed</string>
+    <string name="menu_delete_task">Delete task</string>
+    <string name="navigation_view_header_title">TO-DOs</string>
+    <string name="title_hint">Title</string>
+    <string name="description_hint">Enter your TO-DO here.</string>
+    <string name="empty_task_message">TO DOs cannot be empty</string>
+    <string name="successfully_saved_task_message">TO-DO saved</string>
+    <string name="list_title">TO-DO List</string>
+    <string name="statistics_title">Statistics</string>
+    <string name="statistics_no_tasks">You have no tasks.</string>
+    <string name="statistics_active_tasks">Active tasks:</string>
+    <string name="statistics_completed_tasks">Completed tasks:</string>
+    <string name="statistics_error">Error loading statistics.</string>
+    <string name="no_data">No data</string>
+    <string name="loading">LOADING</string>
+
+    <string-array name="list_tasks_array">
+        <item>@string/nav_all</item>
+        <item>@string/nav_active</item>
+        <item>@string/nav_completed</item>
     </string-array>
+    <string name="nav_all">All</string>
+    <string name="nav_active">Active</string>
+    <string name="nav_completed">Completed</string>
+    <string name="label_all">All TO-DOs</string>
+    <string name="label_active">Active TO-DOs</string>
+    <string name="label_completed">Completed TO-DOs</string>
+    <string name="no_tasks_all">You have no TO-DOs!</string>
+    <string name="no_tasks_active">You have no active TO-DOs!</string>
+    <string name="no_tasks_completed">You have no completed TO-DOs!</string>
+    <string name="no_tasks_add">Add a TO-DO item +</string>
+    <string name="refresh">Refresh</string>
+
 </resources>
